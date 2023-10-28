@@ -1,0 +1,323 @@
+---
+
+---
+
+<nav id="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+
+
+  <div class="nav_top">
+
+    
+      <svg width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" rx="3" fill="#161616"/>
+        <path d="M79.1953 83.04V82.8494C79.1953 82.5106 79.5765 81.9812 80.3389 81.2612C81.1436 80.4988 81.5459 79.6518 81.5459 78.72V44.0965C81.5459 43.1647 81.1436 42.3388 80.3389 41.6188C79.5765 40.8565 79.1953 40.2847 79.1953 39.9035V39.713C79.1953 39.12 79.64 38.8235 80.5294 38.8235H90.44C91.3294 38.8235 91.7742 39.12 91.7742 39.713V39.9035C91.7742 40.2847 91.3506 40.8565 90.5036 41.6188C89.6565 42.3388 89.233 43.1647 89.233 44.0965V78.72C89.233 79.6518 89.6565 80.4988 90.5036 81.2612C91.3506 81.9812 91.7742 82.5106 91.7742 82.8494V83.04C91.7742 83.633 91.3294 83.9294 90.44 83.9294H80.5294C79.64 83.9294 79.1953 83.633 79.1953 83.04Z" fill="white"/>
+        <path d="M66.48 77.4494C66.6071 78.5929 67.1788 79.6941 68.1953 80.753C69.2541 81.8118 69.7835 82.5106 69.7835 82.8494V83.04C69.7835 83.6329 69.3176 83.9294 68.3859 83.9294H57.3318C56.4 83.9294 55.9341 83.6329 55.9341 83.04V82.8494C55.9341 82.5106 56.3576 81.9812 57.2047 81.2612C58.0941 80.4988 58.5176 79.6094 58.4753 78.5929C58.4753 75.3741 57.3741 71.8165 55.1718 67.92C53.0118 64.0235 50.2588 61.0377 46.9129 58.9624L38.2729 67.6024V78.5929C38.2729 79.5247 38.6965 80.3929 39.5435 81.1977C40.4329 81.96 40.8776 82.5106 40.8776 82.8494V83.04C40.8776 83.6329 40.4118 83.9294 39.48 83.9294H29.5694C28.68 83.9294 28.2353 83.6329 28.2353 83.04V82.8494C28.2353 82.5106 28.6165 81.96 29.3788 81.1977C30.1835 80.3929 30.5859 79.5247 30.5859 78.5929V44.0965C30.5859 43.1647 30.1835 42.3388 29.3788 41.6188C28.6165 40.8565 28.2353 40.3059 28.2353 39.9671V39.7129C28.2353 39.12 28.68 38.8235 29.5694 38.8235H39.48C40.4118 38.8235 40.8776 39.12 40.8776 39.7129V39.9671C40.8776 40.3059 40.4329 40.8565 39.5435 41.6188C38.6965 42.3388 38.2729 43.1647 38.2729 44.0965V62.7741L56.76 44.2235C57.3953 43.3765 57.6494 42.7835 57.5223 42.4447C57.3953 42.1059 57.0988 41.6824 56.6329 41.1741C56.2094 40.6659 55.9976 40.2635 55.9976 39.9671V39.7129C55.9976 39.12 56.4423 38.8235 57.3318 38.8235H65.2094C66.0988 38.8235 66.5435 39.12 66.5435 39.7129V39.9671C66.5435 40.3482 66.3106 40.7294 65.8447 41.1106C65.4212 41.4494 64.7647 41.8941 63.8753 42.4447C63.0282 42.9953 62.3082 43.5882 61.7153 44.2235L51.9953 53.9435C56.2306 56.6118 59.6188 60.2329 62.16 64.8071C64.7435 69.3388 66.1835 73.5529 66.48 77.4494Z" fill="white"/>
+      </svg>  
+
+      <a class="logo" href="/">
+      FREELANCER WEB DESIGNER AMSTERDAM
+      </a>
+
+    <div class="menu-icon" onclick="myFunction()">
+    <span></span>
+    </div>
+  
+
+
+  </div> <!---nav top-->
+
+ 
+  <ul id="ulliste">
+    <a href="/">Home</a>
+    <a href="#kontakt">Contact</a>
+
+  </ul>
+
+</nav>
+
+<style>
+
+
+svg {
+  margin-left: 10px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+}
+
+
+#nav-icon1 {
+    z-index: 9999;
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    
+    margin: 1em;
+    overflow: hidden;
+  }
+  
+  #nav-icon1:hover {
+    cursor: pointer;
+  } 
+  
+  
+  #nav-icon1 span {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background: #f9c365;
+    border-radius: 0px;
+    opacity: 1;
+    transition: all 0.7s ease;
+    display: inline-block
+  }
+  
+  
+  #nav-icon1 span:nth-child(1) {
+    top: 0px;
+    width: 70%;
+    transform: translateX(0px);
+  }
+  
+  #nav-icon1 span:nth-child(2) {
+    top: 18px;
+    transform: rotate(0deg);
+  }
+  
+  #nav-icon1 span:nth-child(3) {
+    top: 36px;
+    width: 70%;
+    right: 0;
+    transform: translateX(0px);
+  }
+  
+  #nav-icon1 span:nth-child(4) {
+    top: 18px;
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  
+  #nav-icon1.open span:nth-child(1) {
+    right: 0;
+    transform: translateX(100px);
+    background: white;
+  }
+  
+  #nav-icon1.open span:nth-child(2) {
+    transform: rotate(45deg);
+    width: 89%;
+    background: white;
+  }
+  
+  #nav-icon1.open span:nth-child(3) {
+    left: 0;
+    transform: translateX(-100px);
+    background: white;
+  }
+  
+  #nav-icon1.open span:nth-child(4) {
+    transform: rotate(-45deg);
+    width: 89%;
+    opacity: 1;
+    background: white;
+  }
+  
+  #nav-icon1 {
+    display: none;
+  }
+  
+  
+  
+  
+ .logo_nav {
+    text-decoration: none;
+  }
+  
+  .logo {
+    padding: 8px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
+  .logo {
+    color: #323F4B;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    padding-left: 15px;
+  }
+  
+  .logo span {
+    color: #f9c365;
+  } 
+  
+
+  .logo img {
+    padding-right: 5px;
+  }
+  
+  
+  
+  
+  
+  header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Jost';
+        width: 1060px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+  
+    header nav li {
+        display: inline;
+    }
+
+    .menu_item.first { 
+        padding-left: 0;
+    }
+  
+    header nav li a {
+        text-decoration: none;
+        margin-left: 48px;
+        color: #616e7c;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Recoleta;
+    }
+
+
+    .nav_ul {
+        padding-left: 0;
+    }
+    
+    .nav_social {
+      display: flex;
+      align-items: center;
+    }
+
+    .social-img {
+        color: #52606D;
+        margin-left: 32px;
+        display: block;
+      }
+        
+  
+      .nav_menu.open_menu {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f9c365;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        overflow: hidden;
+        z-index: 999;
+      }
+  
+  
+      .nav_menu.open_menu li { 
+          display: block;
+          padding-top: 1rem;
+          text-align: center;
+          font-size: 24px;
+      }
+  
+      .nav_menu.open_menu li a  { 
+        color: #1d1e1e;
+        transform: translateX(300%);
+        display: block;
+        transition: all .3s ease-in-out;
+        margin-left: 0px;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+      }
+  
+  
+      .anotherclass { 
+        transform: translateX(0%) !important;
+        padding-left: 0;
+      }
+  
+  
+      @media only screen and (max-width: 970px) { 
+  
+        nav {
+            display: none;
+        }
+  
+        .nav_social {
+            display: none;
+        }
+  
+        #nav-icon1 {
+            display: block;
+        }
+  
+  
+        header {
+          display: block;
+          margin-top: 16px !important;
+        }
+  
+        .logo {
+          justify-content: flex-start;
+          padding-left: 15px;
+      }
+  
+  
+  
+      }
+
+</style>
+
+
+<script>
+
+
+  let navIcon = document.getElementById("nav-icon1");
+  let menu = document.querySelector(".nav_menu");
+  const allMenu = document.querySelectorAll('.menu_item')
+
+  
+
+  
+
+  navIcon.addEventListener("click", function() {
+  
+  
+  
+    this.classList.toggle("open")
+    menu.classList.toggle("open_menu")
+
+
+    allMenu.forEach((element, i) => {
+        setTimeout(() => {
+            element.classList.toggle("anotherclass");
+        }, i * 200);
+      });
+
+
+  });
+
+
+
+</script>

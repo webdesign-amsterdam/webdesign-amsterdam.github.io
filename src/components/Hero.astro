@@ -1,0 +1,141 @@
+---
+const Keyword = "Freelance Web Designer Amsterdam"
+---
+
+
+
+<section id="homepage-hero">
+	<div class="homepage-wrapper">
+
+	<div class="hero_left">
+
+		<p class="site-description-up">YOUR AMSTERDAM FREELANCER</p>
+		<h1 class="site-description-down">{Keyword}</h1>
+
+		<p class="site-description-bottom">
+      KI verändert bereits die Welt. Möchten Sie KI Anwendungen in ihr Unternehmen integrieren oder interessieren sich für 
+      die neusten KI Themen, dann sind sie hier richtig. Ob Chat GPT oder Stable Diffusion, wir helfen Ihnen weiter.
+		</p>
+
+
+
+		<a id="hrefkon"><button id="kontaktbutton">Contact Me<span class="yellow">→</span></button></a>
+	</div>
+
+
+	<div class="hero_right">
+		<img src="" alt=`${Keyword}` width="300px">
+	</div>
+
+
+	</div>
+</section>
+
+
+
+<style>
+
+
+
+#homepage-hero {
+    padding: 20px 0;
+    padding-top: 0;
+    background-color: #f6f5f2;
+  }  
+
+
+
+  .homepage-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: left;
+    color: #08081b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 16px;
+    box-sizing: border-box; }
+
+.site-description-up {
+    letter-spacing: 0.10em;
+    font-size: 15px;
+    margin-bottom: 0em; 
+    color: #666461;
+}
+
+.site-description-down {
+    font-weight: 800;
+    color: #232323;
+    font-size: 52px;
+    line-height: 58px;
+    margin-top: 0;
+    margin-bottom: 0em; 
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+.site-description-bottom {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #666461;
+}
+
+#hrefkon {
+  display: block;
+    margin-top: 24px;}
+  
+  #kontaktbutton {
+    padding: 16px 22px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    color: #232323;
+    background-color: white;
+    border: 3px solid #232323;
+  }
+  
+
+  .hero_right {
+    margin-top: 18px;
+  }
+
+
+
+@media only screen and (min-width: 610px) { 
+
+
+  .homepage-wrapper { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero_right {
+    width: 650px;
+  }
+
+   .site-description-down {
+        font-size: 82px;
+        line-height: 88px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+    #homepage-hero {
+        padding: 70px 0;
+      }  
+
+
+}
+
+
+
+
+
+
+</style>

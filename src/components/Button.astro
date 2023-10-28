@@ -1,0 +1,41 @@
+---
+const { buttontext } = Astro.props;
+const { bgColor = 'default' } = Astro.props;
+const className = `myComponent-${bgColor}`;
+---
+
+
+<button class={className}>{ buttontext}</button>
+
+<style>
+    button {
+    font-family: 'Jost';
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    padding: 14px 25px;
+    border: 2px solid black; /* Assuming a darker shade of yellow for the border */
+    background-color: transparent; /* This is an approximate shade of yellow; adjust as needed */
+    color: #333; /* Dark color for the text */
+    border-radius: 5px; /* Adjust based on the desired roundness */
+    font-size: 20px; 
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    transition: background-color 0.5s ease; /* Optional: For a hover effect */
+}
+
+button:hover {
+    background-color: transparent; /* White text on hover */
+}
+
+
+
+.myComponent-red {
+    background-color: white;
+}
+
+.myComponent-yellow {
+    background-color: #fac459;
+}
+
+</style>
