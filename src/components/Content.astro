@@ -8,7 +8,7 @@ const Keyword = "Freelance Web Designer Amsterdam"
 
 	<h2>Freelance Web Designer Amsterdam</h2>
 
-	<p>Hey there! I’m a freelance web designer hailing from the heart of Amsterdam. Ever wandered through the enchanting canals of the city and felt the buzz of creativity? That’s where I draw my inspiration from.
+	<p>Hey there! I’m Lukasz, a freelance web designer hailing from the heart of Amsterdam. Ever wandered through the enchanting canals of the city and felt the buzz of creativity? That’s where I draw my inspiration from.
 		<br><br>
 		Amsterdam isn’t just about its central charm. I’m here for every corner of this beautiful city and its suburbs. Whether you're from Westpoort or Zuidoost, Oost or Nieuw-West, Centrum or Noord, I’ve got your web needs covered. Not to forget the picturesque suburbs of Zuid, De Pijp, Jordaan, and West. Need a website in Oud-West or Watergraafsmeer? I’m your go-to designer.
 		<br><br>
@@ -27,13 +27,37 @@ const Keyword = "Freelance Web Designer Amsterdam"
 		<br><br>
 		In a nutshell, if you're in Amsterdam or its beautiful suburbs and need a web expert who not only designs but understands the essence of this city, I'm just a call away. Let’s bring your vision to life, and showcase it to the world!
 		</p>
+
+		<h2 id="contact">Contact Me</h2>
+
+		<p>Let's get to know each other. Send me a message and I'll get back to you.</p>
+
+		<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+			<div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit →</button>
+            </div>
+        </form>
+
+
 	</div>
 
 
 	<div class="wrapper-right">
 
 		
-		<h4>Hi, I'm your Amsterdam Freelancer.</h4>
+		<h4>Hi, I'm Lukasz. Your Amsterdam Freelancer.</h4>
 		<img id="port" src="/images/photo.jpg" alt=`${Keyword}`>
 
 
@@ -50,7 +74,7 @@ const Keyword = "Freelance Web Designer Amsterdam"
 		<h4>Contact - {Keyword}</h4>
 
 		<p>
-		Just contact me here. 
+		Just contact me <a href="#contact">here.</a>
 
 		
 
@@ -65,5 +89,51 @@ const Keyword = "Freelance Web Designer Amsterdam"
 	#port {
 		border-radius: 50%;
 	}
+
+
+	.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ffc800;
+    color: white;
+    padding: 10px 15px;
+	border: 3px solid #232323;
+	font-weight: 800;
+    cursor: pointer;
+	color: #333;
+	font-family: Montserrat;
+	padding: 16px 22px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+.form-group textarea {
+    height: 150px; /* Increased height */
+}
 
 </style>
