@@ -1,0 +1,291 @@
+---
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import Content from '../components/Content.astro'
+import Hero from '../components/Hero.astro'
+import '../styles/global.css'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="generator" content={Astro.generator} />
+		<title>Freelance Web Developer Amsterdam</title>
+	</head>
+	<body>
+
+	<Header/>
+
+	<section id="homepage-hero">
+        <div class="homepage-wrapper">
+    
+        <div class="hero_left">
+    
+            <p class="site-description-up">YOUR AMSTERDAM FREELANCER</p>
+            <h1 class="site-description-down">Freelance Web Developer Amsterdam</h1>
+    
+            <p class="site-description-bottom">
+                As a seasoned freelance web developer based in Amsterdam, I, Lukasz Adam, bring a blend of innovative design and technical expertise to every project. With a passion for creating dynamic, user-centric web solutions, I have established myself as a key player in Amsterdam's vibrant digital landscape.
+            </p>
+    
+    
+    
+            <a id="hrefkon" href="#contact"><button id="kontaktbutton">Contact Me<span class="yellow">→</span></button></a>
+        </div>
+    
+    
+        <div class="hero_right">
+            
+        </div>
+    
+    
+        </div>
+    </section>
+
+	<section id="area1">
+
+        <div class="wrapper-left">
+    
+        <h2>Freelance Web Developer Amsterdam</h2>
+    
+        <p>Elevate Your Digital Presence with Cutting-Edge Web Development from Amsterdam's Premier Expert</p>
+            
+        <p>
+            Welcome to the digital craftsmanship of Lukasz Adam, Amsterdam’s foremost freelance web developer. With over two decades of refined experience in the dynamic world of web development, I bring a fusion of creativity, technical prowess, and a deep understanding of the internet’s evolving landscape. As a dedicated freelance web developer in Amsterdam, my mission is to transform your visions into compelling, high-performing digital realities.
+        </p>
+
+        <img src="/images/web-development-amsterdam.png" alt="freelance web developer amsterdam">
+       
+        <h2>My Expertise: A Spectrum of Web Development Services for Amsterdam</h2>
+
+        <h3>Responsive Web Design</h3>
+        <p>As a freelance web developer in Amsterdam, I delve into the realm of ultra-responsive, mobile-friendly websites. Leveraging HTML5, CSS3, and advanced JavaScript frameworks like React.js and Angular, I guarantee a seamless, engaging user experience across all devices.</p>
+    
+        <h3>E-commerce Solutions</h3>
+        <p>Propel your online store to new heights with robust e-commerce platforms like Magento, Shopify, and WooCommerce. My specialization as a freelance web developer in Amsterdam lies in crafting custom, scalable solutions that dazzle visually while offering an intuitive shopping experience, complete with secure payment gateway integrations.</p>
+    
+        <h3>Content Management Systems (CMS)</h3>
+        <p>Harness the power of WordPress, Drupal, or Joomla for easy-to-manage websites. As an experienced freelance web developer in Amsterdam, I deliver tailor-made themes and plugins, ensuring your site is as unique as your brand, coupled with user-friendly interfaces for effortless content updates.</p>
+    
+        <h3>API Integration and Development</h3>
+        <p>Seamlessly integrate third-party services into your website with my expertise as a freelance web developer in Amsterdam. Whether it's social media APIs, Google Maps, or custom RESTful services, I ensure smooth and efficient data exchange and functionality enhancement.</p>
+    
+        <h3>Performance Optimization</h3>
+        <p>Experience lightning-fast loading times with my expertise in front-end optimization, server-side tuning, and database optimization. As a freelance web developer in Amsterdam, I employ techniques like minification, compression, and efficient caching strategies to ensure your website performs at its peak.</p>
+    
+        <h3>Web Security</h3>
+        <p>Safeguard your online presence with top-tier security measures. From SSL/TLS encryption to regular security audits, I, as a freelance web developer in Amsterdam, ensure your website is fortified against cyber threats, providing peace of mind for you and your users.</p>
+    
+
+        <h2>Why Choose me as your Amsterdam Web Developer ?</h2>
+
+        <ul class="liste">
+            <li><strong>5+ Years of Experience</strong>: Leverage my extensive knowledge and experience in dealing with complex web development challenges in Amsterdam.</li>
+            <li><strong>Tailored Solutions</strong>: I believe in a bespoke approach, crafting solutions that align perfectly with your business goals and audience needs.</li>
+            <li><strong>Cutting-Edge Technologies</strong>: Stay ahead of the curve with the latest technologies and trends in web development.</li>
+            <li><strong>Unwavering Support</strong>: Benefit from my ongoing support and maintenance services, ensuring your website remains updated and efficient.</li>
+        </ul>
+
+        <h2>Embark on Your Digital Journey Today!</h2>
+    <p>In the heart of Amsterdam, a digital revolution is underway. Be part of it. Contact me to discuss how we can elevate your online presence to new heights.</p>
+    
+
+        </div>
+    
+    
+        <div class="wrapper-right">
+    
+            
+            <h4>Hi, I'm Lukasz. Your Amsterdam Freelancer.</h4>
+            <img id="port" src="/images/photo.jpg">
+    
+    
+    
+            <h4>Why working with me?</h4>
+    
+            <ul class="liste">
+                <li>Working in Amsterdam and online</li>
+                <li>+5 years of Web Design Experience</li>
+                <li>Simples pricing, simple websites</li>
+                <li>Modern Web Development</li>
+            </ul>
+    
+            <h4>Contact </h4>
+    
+            <p>
+            Just contact me <a href="#contact">here.</a>
+    
+            
+    
+    
+        </div>
+    
+    </section>
+
+	<Footer/>
+
+	</body>
+</html>
+
+
+
+<style>
+
+
+
+    #homepage-hero {
+        padding: 20px 0;
+        padding-top: 0;
+        background-color: #f6f5f2;
+      }  
+    
+    
+    
+      .homepage-wrapper {
+        width: 1100px;
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: left;
+        color: #08081b;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 16px;
+        box-sizing: border-box; }
+    
+    .site-description-up {
+        letter-spacing: 0.10em;
+        font-size: 15px;
+        margin-bottom: 0em; 
+        color: #666461;
+    }
+    
+    .site-description-down {
+        font-weight: 800;
+        color: #232323;
+        font-size: 52px;
+        line-height: 58px;
+        margin-top: 0;
+        margin-bottom: 0em; 
+        padding-top: .3em;
+        padding-bottom: .3em;
+    }
+    
+    .site-description-bottom {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #666461;
+    }
+    
+    #hrefkon {
+      display: block;
+        margin-top: 24px;}
+      
+      #kontaktbutton {
+        padding: 16px 22px;
+        border: none;
+        font-size: 1.2em;
+        color: #fff;
+        font-weight: 800;
+        cursor: pointer;
+        color: #232323;
+        background-color: white;
+        border: 3px solid #232323;
+      }
+      
+    
+      .hero_right {
+        margin-top: 18px;
+      }
+    
+    
+    
+    @media only screen and (min-width: 610px) { 
+    
+    
+      .homepage-wrapper { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      .hero_right {
+        width: 650px;
+      }
+    
+       .site-description-down {
+            font-size: 82px;
+            line-height: 88px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+    
+        #homepage-hero {
+            padding: 70px 0;
+          }  
+    
+    
+    }
+    
+    
+
+    #port {
+		border-radius: 50%;
+	}
+
+
+	.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ffc800;
+    color: white;
+    padding: 10px 15px;
+	border: 3px solid #232323;
+	font-weight: 800;
+    cursor: pointer;
+	color: #333;
+	font-family: Montserrat;
+	padding: 16px 22px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+.form-group textarea {
+    height: 150px; /* Increased height */
+}
+    
+    
+    
+    
+    </style>
