@@ -9,17 +9,22 @@
 
 <url>
   <loc>https://webdesign-amsterdam.github.io/</loc>
-  <lastmod>2023-11-26T21:00:15+00:00</lastmod>
+  <lastmod>2023-11-28T15:41:34+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://webdesign-amsterdam.github.io/web-development-amsterdam/</loc>
-  <lastmod>2023-11-26T21:00:15+00:00</lastmod>
+  <lastmod>2023-11-28T15:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webdesign-amsterdam.github.io/wordpress-amsterdam/</loc>
+  <lastmod>2023-11-28T15:41:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://webdesign-amsterdam.github.io/about/</loc>
-  <lastmod>2023-11-26T21:00:15+00:00</lastmod>
+  <lastmod>2023-11-28T15:41:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
